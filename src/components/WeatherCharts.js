@@ -22,6 +22,9 @@ const WeatherCharts = () => {
   if (chartLoading) {
     return <Spinner />;
   }
+  if (!forcast_data) {
+    return <div>No data available </div>;
+  }
 
   console.log("Hello from charts" + forcast_data);
   // Format the data for the charts
