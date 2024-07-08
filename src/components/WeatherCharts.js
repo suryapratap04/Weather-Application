@@ -56,7 +56,7 @@ const WeatherCharts = () => {
             <ResponsiveContainer width="100%" height={300}>
               <LineChart width={600} height={300} data={chartData}>
                 <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="time" />
+                <XAxis dataKey="dt_txt" />
                 <YAxis />
                 <Tooltip />
                 <Legend />
