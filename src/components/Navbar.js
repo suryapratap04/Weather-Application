@@ -8,17 +8,17 @@ export default function Navbar() {
           Weather App
         </div>
       </NavLink>
-      <div className="hidden md:flex  border-yellow-300 w-[35%] justify-evenly items-center">
-        <NavLink to={"/signin"}>
-          <button className="border-2 p-2 rounded-lg ">Sign-in</button>
-        </NavLink>
-        <NavLink to={"/signup"}>
-          <button className="border-2 p-2 rounded-lg">Sign-up</button>
-        </NavLink>
-      </div>
-      <button className="mr-4 md:hidden">
-        <AiOutlineMenu fontSize={24} fill="#AFB2BF" />
-      </button>
+      // <div className="hidden md:flex  border-yellow-300 w-[35%] justify-evenly items-center">
+      //   <NavLink to={"/signin"}>
+      //     <button className="border-2 p-2 rounded-lg ">Sign-in</button>
+      //   </NavLink>
+      //   <NavLink to={"/signup"}>
+      //     <button className="border-2 p-2 rounded-lg">Sign-up</button>
+      //   </NavLink>
+      // </div>
+      // <button className="mr-4 md:hidden">
+      //   <AiOutlineMenu fontSize={24} fill="#AFB2BF" />
+      // </button>
     </div>
   );
 }
